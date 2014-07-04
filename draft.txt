@@ -1,0 +1,7 @@
+I thought of associating all the keywords with a particular flag by using python. The various keywords specific to a given flag were collected from the web and stored in different text files. The name of these files was same as the flag for which it stored the keywords. Eg. keywords for the flag accident were stored in accident.txt
+When the API is accessed for the first time all the txt files are read and stored in a list along with the flag.
+Consequtive accesses to file won't be needed as it is accessed only when the API is initialised.
+The article was taken in as input from user. All the punctuation and stop words were ignored from the article and then the whole sentence was converted to lowercase. It is then converted to list.
+The intersection of the sentence with each flag keywords is then checked. If its null then it isn't marked for that flag else it is.
+The list of all the flags marked for the particular article is returned. If none flags are associated with the article then an empty list is rturned.
+

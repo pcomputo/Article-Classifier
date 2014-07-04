@@ -1,0 +1,16 @@
+This directory contains to sub-directories namely
+1) Classifiers
+2) Dictionary
+and a document draft.txt to specify my implementation details
+
+The Classifiers directory will then contain two different approach based classifiers.
+
+The Dictionary will contain two folders
+a) Using External Files
+b) Without Using External Files
+
+In using external files the keywords for various flags are read from files (named as respective_flag.txt)
+ It contains a folder names TagFiles for various flag keyword text files. A Protoype file (prototype.py) used for testing the API and the API file(unsafe_flags.py)
+
+In without using external files the keywords are embedded into the code itself and no need to access external files.
+ It contains the API file (unsafe.py) and a prototype file used for testing the API (Prototype.py) 
